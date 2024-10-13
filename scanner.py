@@ -6,7 +6,6 @@ from ports import *
 # start = time
 # end = time
 
-
 # Service running on the port
 def ServicesRunning(target_ip, target_ports):
     print("[*] Services running")
