@@ -4,7 +4,6 @@ import argparse
 import time
 from scanner import *
 
-
 ascii_banner = pyfiglet.figlet_format("Scanity")
 print(ascii_banner)
 
