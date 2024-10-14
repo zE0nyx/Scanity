@@ -24,11 +24,6 @@ cd scanity
 pip install .
 ```
 
-Alternatively, you can install it directly from PyPI (if published):
-```bash
-pip install scanity
-```
-
 ## Usage
 After installation, you can use Scanity from the command line, check for the usage of the python tool by using the ```--help``` command
 ```bash
