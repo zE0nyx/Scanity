@@ -8,7 +8,7 @@ from ports import *
 
 
 # Service running on the port
-def ServicesRunning(target_ip, target_ports):
+def services_running(target_ip, target_ports):
     print("[*] Services running")
     services = {}
     for port in target_ports:
@@ -78,7 +78,7 @@ def syn_scan(target_ip, target_ports):
 
 
 # User defined target
-def SpecificTargetPort(target_ip, target_ports):
+def specified_target_port(target_ip, target_ports):
     print("[*] Scanning Initiated")
     open_ports = []
 
@@ -144,7 +144,7 @@ def scan_all_ports(ipaddress):
 
 
 # Scanning top 1000 ports:
-def ScanT1000(ipaddress):
+def scan_t100(ipaddress):
     print("[*] Scanning all the 1000 ports.")
     open_ports = []
     try:
@@ -175,7 +175,7 @@ def ScanT1000(ipaddress):
 
 
 # Scanning the top 100 ports:
-def ScanT100(ipaddress):
+def scan_t1000(ipaddress):
     print("[*] Scanning all the 100 ports")
     open_ports = []
 
