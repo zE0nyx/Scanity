@@ -1,4 +1,4 @@
-# The top 1000 commonly scanned ports, from Nmap
+# The top 1000 commonly scanned ports
 top_1000_ports = [
     1, 3, 4, 6, 7, 9, 13, 17, 19, 20, 21, 22, 23, 24, 25, 26, 30, 32, 33, 37, 42,
     43, 49, 53, 70, 79, 80, 81, 82, 83, 84, 85, 88, 89, 90, 99, 100, 106, 109, 110,
@@ -78,7 +78,7 @@ top_1000_ports = [
 ]
 
 
-# Top 100 commonly scanned ports, derived from Nmap
+# Top 100 commonly scanned ports
 top_100_ports = [
     1, 3, 7, 9, 13, 17, 19, 20, 21, 22, 23, 25, 26, 37, 53, 69, 70, 79, 80, 81,
     82, 83, 84, 85, 88, 89, 90, 99, 100, 106, 109, 110, 111, 113, 119, 125, 135,
