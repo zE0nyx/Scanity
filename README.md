@@ -37,19 +37,19 @@ scanity [options]
 
 ```-h, --help```: Show help message and exit.
 
-```--services_running```: Scan for running services and their versions on specified ports
+```--services_running```: Scan for running services and their versions on specified ports.
 
-```--syn_scan```: Perform a SYN scan on specified ports
+```--syn_scan```: Perform a SYN scan on specified ports.
 
-```--specified_target_port```: Scan specific ports (e.g., 22,80,443)
+```--specified_target_port```: Scan specific ports (e.g., 22,80,443).
 
-```--scan_all_ports```: Scan all 65535 ports
+```--scan_all_ports```: Scan all 65535 ports.
 
-```--scan_t100```: Scan the top 100 most common ports
+```--scan_t100```: Scan the top 100 most common ports.
 
-```--scan_t1000```: Scan the top 1000 most common ports
+```--scan_t1000```: Scan the top 1000 most common ports.
 
-```-v, --verbose```: Enable verbose output
+```-v, --verbose```: Enable verbose output.
 
 ## Example
 To scan a specific target for open ports:
