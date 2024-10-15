@@ -4,7 +4,7 @@ from scanner import *
 
 ascii_banner = pyfiglet.figlet_format("Scanity")
 print(ascii_banner)
-print("- - - - - - - - - - - - - - - - - - - - - - - -")
+print("------------------------------")
 
 
 def run_scan(target, args):
