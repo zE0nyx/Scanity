@@ -63,7 +63,7 @@ def parse_arguments():
                                                  'enable it to function effectively.',
                                      epilog='Remember to follow me at https://github.com/zE0nyx')
 
-    parser.add_argument('t', 'target', required=True, help='Target IP address or hostname')
+    parser.add_argument('-t', '--target', required=True, help='Target IP address or hostname')
     parser.add_argument('-p', '--ports', type=str, help='Specify the port range to scan (e.g., "1-100" or "22,80,443")')
 
     # Arguments for different types of scans
@@ -81,6 +81,13 @@ def parse_arguments():
 
 def main():
     args = parse_arguments()
+    run_scan(args.target, args)
+
+    # If no arguments were passed then show the usage
+    if len(vars(args)) == 0:
+        parser.print_help()
+        exit(1)
+
     run_scan(args.target, args)
 
 
