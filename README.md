@@ -19,7 +19,7 @@ Scanity is a simple and efficient network scanner built in Python. It allows use
 To install Scanity, clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/scanity.git
+git clone https://github.com/zE0nyx/scanity.git
 cd scanity
 pip install .
 ```
