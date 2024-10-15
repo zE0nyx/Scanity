@@ -90,7 +90,7 @@ def main():
         exit(1)
 
     run_scan(args.target, args)
-    print("------------------------------")
+    # print("------------------------------")
 
 if __name__ == '__main__':
     main()
