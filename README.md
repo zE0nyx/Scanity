@@ -21,13 +21,12 @@ To install Scanity, clone the repository and install the required dependencies:
 ```bash
 git clone https://github.com/zE0nyx/scanity.git
 cd scanity
-pip install .
 ```
 
 ## Usage
 After installation, you can use Scanity from the command line, check for the usage of the python tool by using the ```--help``` command
 ```bash
-scanity [options] 
+python scanity.py [options] 
 ```
 ## Options
 
@@ -53,9 +52,11 @@ scanity [options]
 
 ## Example
 To scan a specific target for open ports:
-```scanity --target 192.168.1.1 --ports 1-100```
+```python3 scanity.py --target <target_ip> --ports 1-100```
+
 or 
-```sudo python3 ./scanity --target 192.168.1.1 --ports 1-100```
+
+```python scanity --target <target_ip> --ports 1-100```
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request.
